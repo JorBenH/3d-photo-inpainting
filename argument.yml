@@ -2,8 +2,8 @@ depth_edge_model_ckpt: checkpoints/edge-model.pth
 depth_feat_model_ckpt: checkpoints/depth-model.pth
 rgb_feat_model_ckpt: checkpoints/color-model.pth
 MiDaS_model_ckpt: MiDaS/model.pt
-fps: 60
-num_frames: 240
+fps: 240
+num_frames: 480
 x_shift_range: [-0.03, -0.02, -0.02]
 y_shift_range: [-0.00, -0.00, -0.02]
 z_shift_range: [-0.07, -0.07, -0.07]
